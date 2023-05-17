@@ -1,0 +1,42 @@
+.preloader-scan {
+    position: fixed;
+    left: 0;
+    right: 0;
+    max-width: 200px;
+    display: table;
+    margin: 0 auto;
+    height: 100%;
+    text-align: center;
+    
+}
+  
+  
+    li {
+      display: inline-block;
+      width: 2px;
+      height: 50px;
+      background-color: #444;
+    }
+   
+    .laser {
+      width: 150%;
+      margin-left: -25%;
+      background-color: tomato;
+      height: 1px;
+      position: absolute;
+      top: 40%;
+      z-index: 2;
+      box-shadow: 0 0 4px red;
+      animation: scanning 2s infinite;
+    }
+  
+  
+  body {
+    height: 100%;
+  }
+  
+  @keyframes scanning {
+    50% {
+      transform: translateY(75px);
+    }
+  }

@@ -1,0 +1,13 @@
+.container-card {
+  max-width: 1200px;
+  margin: 130px 0px 0px 188px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+header h1 {
+  padding-right: 0px;
+  font-size: 38px;
+  margin-top: 28px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}

@@ -1,0 +1,53 @@
+*{
+    overflow:hidden;
+}
+h1{
+    font-size: 50px;
+    padding-top: 130px;
+    padding-right: 6px;
+}
+  .left-banner {
+    top: -103px;
+    left: -25px;
+    position: absolute;
+    height: 250px;
+    opacity: 100%;
+    transform: rotate(345deg);
+  }
+
+  .right-banner {
+    top: -105px;
+    right: -20px;
+    position: absolute;
+    height: 250px;
+    padding: 750px 35px 80px 38px;
+    opacity: 100%;
+    transform: rotate(344deg);
+}
+
+
+  .l-banner {
+    top: 100px;
+    left: 0;
+    position: absolute;
+    width: 194px;
+    height: 655px;
+    opacity: 100%;
+    transform: rotate(180deg);
+  }
+
+  .r-banner {
+    top: -1px;
+    right: 0;
+    position: absolute;
+    width: 194px;
+    height: 655px;
+    transform: scaleX(-1);
+
+  }
+
+  em {
+    font-style: normal;
+    color: #5b03e4;
+  }
+ 

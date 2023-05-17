@@ -1,0 +1,158 @@
+*{
+    overflow-x: hidden;
+}
+.container1 {
+    display: flex;
+    margin: 45px 175px 45px 470px;
+    box-shadow: 0 0 0 1px rgb(149 0 255);
+}
+#name{
+    padding: 0px 0px 0px 0px;
+    font-size: 30px;
+}
+#date{
+   
+    font-size: 17px;
+}
+#link{
+  
+    font-size: 17px;
+}
+#dbtn {
+    height: 50px;
+    border-radius: 12px;
+    width: 150px;
+    margin-left: 95px;
+    margin-top: 95px;
+}
+.form{
+        
+    padding-left: 780px;
+
+}
+#qr{
+
+font-size: 30px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 50px 0px 0px 0px;
+align-items: center;
+
+}
+
+#qrtext{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: -17px;
+    margin-top: 45px;
+}
+#user_id{
+    font-size: larger;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+}
+
+#qrid  {
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: black;
+    width: 250px;
+    height: 55px;
+}
+#delete  {
+border-radius: 35px;
+border-style: solid;
+box-shadow: black;
+width: 125px;
+height: 39px;
+}
+
+
+.m3-sidebar{
+    background: rgba(146, 86, 156, 0.579);
+
+    height:100%;
+    position:fixed!important;
+    z-index:1;
+    overflow:hidden;
+    max-width: 25%;
+}
+
+.m3-light-grey{
+    margin-top: -45px;
+    margin-left: -10px;
+    width: 40%;
+}
+
+.m3-bar-block {
+
+
+    width:100%;
+    display:block;
+    padding: 20px 0px 25px 45px;
+    text-align:left;
+    border:none;
+    white-space:normal;
+    float:none;
+    outline:0;
+
+}
+.log1{
+    margin-left: 80px;
+}
+
+.r-banner {
+    top: -1px;
+    right: 0;
+    position: absolute;
+    width: 194px;
+    height: 655px;
+    transform: scaleX(-1);
+    
+
+  }
+
+  .r-banner2 {
+    bottom: -1121px;
+    right: -56px;
+    position: absolute;
+    height: 655px;
+    overflow: hidden;
+    transform: rotate(183deg);
+
+  }
+
+.m3-bar-item{
+    font-size: 30px;
+    margin-left: 30%;
+    margin-right: 50%;
+}
+
+.m3-button1{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.m3-button2{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    
+}
+
+.m3-button3{
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    text-decoration: none;    
+}
+
+
+#compqrlink {
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    align-items: center;
+    margin-bottom: -17px;
+    margin-top: 14px;
+}

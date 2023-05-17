@@ -1,0 +1,36 @@
+  /* Add your CSS styling here */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+
+
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+form {
+    margin-left: 12px;
+}
+
+.delete-c {
+    float: right;
+    margin: -40px 0px 0px 0px;
+}
+p{
+    color: aliceblue;
+}
+h2{
+    color: rgb(61 34 114);
+}

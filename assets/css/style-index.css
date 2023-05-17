@@ -1,0 +1,20 @@
+.right-banner {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    height: 250px;
+    padding: 720px 35px 80px 200px;
+    opacity: 100%;
+    transform: rotate(344deg);
+  }   
+
+  
+  .l-banner {
+    top: 195px;
+    left: 0;
+    position: absolute;
+    width: 194px;
+    height: 655px;
+    opacity: 100%;
+    transform: rotate(180deg);
+  }

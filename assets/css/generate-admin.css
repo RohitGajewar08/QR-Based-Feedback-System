@@ -1,0 +1,88 @@
+.Generate::after {
+    content: url(../images/contact-left.jpg);
+    bottom: -90px;
+    right: 0;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: absolute;
+    width: 103px;
+    height: 464px;
+    z-index: -1;
+}
+
+.Generate::before {
+    content: url(../images/contact-left.jpg);
+    top: -60px;
+    left: 0;
+    position: absolute;
+    width: 103px;
+    height: 464px;
+    z-index: -1;
+}
+
+.Generate {
+    position: relative;
+    padding: 0px 0px 0px 230px;
+}
+
+.Generate .Generate-content #Generate-form {
+    padding: 30px 150px 55px 65px;
+    border-radius: 23px 23px 23px 23px;
+    border: 1px solid #f3d7ff;
+    margin-top: 40px;
+}
+
+#Generate-form input {
+    width: 450px;
+    height: 46px;
+    border-radius: 23px;
+    background-color: #f9ebff;
+    border: none;
+    outline: none;
+    padding: 0px 15px;
+    font-size: 14px;
+    color: #2a2a2a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#Generate-form .section-heading {
+    text-align: center;
+}
+
+#Generate-form input::placeholder {
+    color: #2a2a2a;
+}
+
+#Generate-form textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 23px;
+    background-color: #f9ebff;
+    border: none;
+    outline: none;
+    padding: 15px;
+    font-size: 14px;
+    color: #2a2a2a;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+#Generate-form textarea::placeholder {
+    color: #2a2a2a;
+}
+
+#Generate-form button {
+    border: none;
+    height: 46px;
+    background-color: #5b03e4;
+    width: 480px;
+    border-radius: 23px;
+    color: #fff;
+    transition: all .4s;
+    margin-top: 25px;
+}
+
+#Generate-form button:hover {
+    opacity: 0.8;
+}
